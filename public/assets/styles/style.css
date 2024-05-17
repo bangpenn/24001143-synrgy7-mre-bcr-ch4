@@ -1,0 +1,38 @@
+.features__list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.featires__header h1 {
+    font-size: 24px;
+    font-style: bold;
+}
+
+.features__list li {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+
+.bi {
+    font-size: 2rem; 
+    color: rgba(54, 170, 0, 0.637);
+}
+  
+.bi:hover {
+    cursor: pointer;
+    transform: scale(1.2); 
+    transition: transform 0.2s ease; 
+}
+
+.btn-success {
+    background-color: #5CB85F;
+    border-color: #5CB85F;
+}
+
+
+
+  
